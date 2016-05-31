@@ -1,0 +1,979 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F02EB751CDB58FA004F4D33 /* SoleTopicVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F02EB741CDB58FA004F4D33 /* SoleTopicVoiceView.m */; };
+		2F02EB771CDB591D004F4D33 /* SoleTopicVoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F02EB761CDB591D004F4D33 /* SoleTopicVoiceView.xib */; };
+		2F02EB7A1CDB690D004F4D33 /* SoleTopicVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F02EB791CDB690D004F4D33 /* SoleTopicVideoView.m */; };
+		2F02EB7E1CDB6935004F4D33 /* SoleTopicVideoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F02EB7D1CDB6935004F4D33 /* SoleTopicVideoView.xib */; };
+		2F02EB831CDB7309004F4D33 /* SolePublishView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F02EB821CDB7309004F4D33 /* SolePublishView.m */; };
+		2F270FBD1CD3075000FB5622 /* SoleMeStroyBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F270FBC1CD3075000FB5622 /* SoleMeStroyBoard.storyboard */; };
+		2F270FCD1CD352BA00FB5622 /* SoleSquareCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F270FCB1CD352BA00FB5622 /* SoleSquareCell.m */; };
+		2F270FCE1CD352BA00FB5622 /* SoleSquareCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F270FCC1CD352BA00FB5622 /* SoleSquareCell.xib */; };
+		2F270FD11CD3605900FB5622 /* SoleSquareItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F270FD01CD3605900FB5622 /* SoleSquareItem.m */; };
+		2F2B714B1CD2EAF100D635CF /* SoleRSSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2B714A1CD2EAF100D635CF /* SoleRSSViewController.m */; };
+		2F2B714F1CD2EBEA00D635CF /* SoleRSSCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2B714D1CD2EBEA00D635CF /* SoleRSSCell.m */; };
+		2F2B71501CD2EBEA00D635CF /* SoleRSSCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F2B714E1CD2EBEA00D635CF /* SoleRSSCell.xib */; };
+		2F2B71531CD2EE3600D635CF /* SoleRSSItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2B71521CD2EE3600D635CF /* SoleRSSItem.m */; };
+		2F3B3BE91CCDD09500079FC7 /* UIBarButtonItem+Sole.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3B3BE81CCDD09500079FC7 /* UIBarButtonItem+Sole.m */; };
+		2F3B3BED1CCDE92000079FC7 /* SoleNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3B3BEC1CCDE92000079FC7 /* SoleNavigationController.m */; };
+		2F3B3BEF1CCE3B2900079FC7 /* SoleFriendView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F3B3BEE1CCE3B2900079FC7 /* SoleFriendView.xib */; };
+		2F3B3BF31CCE41E100079FC7 /* SoleRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3B3BF11CCE41E100079FC7 /* SoleRecommendViewController.m */; };
+		2F3B3BF41CCE41E100079FC7 /* SoleRecommendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F3B3BF21CCE41E100079FC7 /* SoleRecommendViewController.xib */; };
+		2F3B3BFD1CCE446400079FC7 /* SoleRecommendTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3B3BFB1CCE446400079FC7 /* SoleRecommendTableViewCell.m */; };
+		2F3B3BFE1CCE446400079FC7 /* SoleRecommendTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F3B3BFC1CCE446400079FC7 /* SoleRecommendTableViewCell.xib */; };
+		2F4795451CDD80E400711254 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4795441CDD80E400711254 /* NSDate+Extension.m */; };
+		2F47954A1CDDAD3400711254 /* SoleVerticallyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4795491CDDAD3400711254 /* SoleVerticallyButton.m */; };
+		2F47954C1CDDAD6400711254 /* SoleVerticallyButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F47954B1CDDAD6400711254 /* SoleVerticallyButton.xib */; };
+		2F47954F1CDDFB2300711254 /* SoleCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F47954E1CDDFB2200711254 /* SoleCommentViewController.m */; };
+		2F4795531CDDFD0800711254 /* SoleCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4795511CDDFD0800711254 /* SoleCommentCell.m */; };
+		2F4795541CDDFD0800711254 /* SoleCommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F4795521CDDFD0800711254 /* SoleCommentCell.xib */; };
+		2F4795571CDE06D800711254 /* SoleCommentItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4795561CDE06D800711254 /* SoleCommentItem.m */; };
+		2F47955D1CDE15C000711254 /* SoleCmtUserItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F47955C1CDE15C000711254 /* SoleCmtUserItem.m */; };
+		2F4BE8151CDA06DE00E7A47D /* SolePictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4BE8131CDA06DE00E7A47D /* SolePictureViewController.m */; };
+		2F4BE8161CDA06DE00E7A47D /* SolePictureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F4BE8141CDA06DE00E7A47D /* SolePictureViewController.xib */; };
+		2F4BE81D1CDA128600E7A47D /* SoleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4BE81C1CDA128600E7A47D /* SoleProgressView.m */; };
+		2F8090AC1CD8300E0087D08D /* SoleBaseTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8090AB1CD8300E0087D08D /* SoleBaseTopicViewController.m */; };
+		2F8090B01CD847760087D08D /* SoleTopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8090AE1CD847760087D08D /* SoleTopicCell.m */; };
+		2F8090B11CD847760087D08D /* SoleTopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F8090AF1CD847760087D08D /* SoleTopicCell.xib */; };
+		2F8090B41CD8497B0087D08D /* SoleTopicItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8090B31CD8497B0087D08D /* SoleTopicItem.m */; };
+		2F8090BC1CD889430087D08D /* SoleGobleVar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8090BB1CD889430087D08D /* SoleGobleVar.m */; };
+		2F8090BF1CD891600087D08D /* SoleTopicPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8090BE1CD891600087D08D /* SoleTopicPictureView.m */; };
+		2F8090C11CD891750087D08D /* SoleTopicPictureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F8090C01CD891750087D08D /* SoleTopicPictureView.xib */; };
+		2FD292141CD199C50095DED0 /* SoleUserItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD292131CD199C50095DED0 /* SoleUserItem.m */; };
+		2FD2921C1CD1E9830095DED0 /* SoleLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD2921A1CD1E9830095DED0 /* SoleLoginViewController.m */; };
+		2FD2921D1CD1E9830095DED0 /* SoleLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2921B1CD1E9830095DED0 /* SoleLoginViewController.xib */; };
+		2FD292201CD1EB760095DED0 /* SoleLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD2921F1CD1EB760095DED0 /* SoleLoginButton.m */; };
+		2FD292231CD205830095DED0 /* SoleLoginTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD292221CD205830095DED0 /* SoleLoginTextField.m */; };
+		2FD9C0461CD0D88D00E67C9C /* SoleCategoryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD9C0451CD0D88D00E67C9C /* SoleCategoryItem.m */; };
+		2FD9C04A1CD0E45100E67C9C /* SoleUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD9C0481CD0E45100E67C9C /* SoleUserCell.m */; };
+		2FD9C04B1CD0E45100E67C9C /* SoleUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FD9C0491CD0E45100E67C9C /* SoleUserCell.xib */; };
+		2FE7D0D11CD470C70095362C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE7D0D01CD470C70095362C /* WebKit.framework */; };
+		2FE7D0D81CD471760095362C /* SoleAdvertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FE7D0D61CD471760095362C /* SoleAdvertView.xib */; };
+		2FE7D0D91CD471760095362C /* SoleAdvertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE7D0D71CD471760095362C /* SoleAdvertViewController.m */; };
+		2FE7D0DC1CD471820095362C /* SoleAdvertItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE7D0DB1CD471820095362C /* SoleAdvertItem.m */; };
+		2FE7D0E01CD471BE0095362C /* SoleWebKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE7D0DE1CD471BE0095362C /* SoleWebKitViewController.m */; };
+		2FE7D0E11CD471BE0095362C /* SoleWebKitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FE7D0DF1CD471BE0095362C /* SoleWebKitViewController.xib */; };
+		2FEFD2271CCCD6970067F370 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FEFD2261CCCD6970067F370 /* Assets.xcassets */; };
+		2FEFD22A1CCCD6970067F370 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FEFD2281CCCD6970067F370 /* LaunchScreen.storyboard */; };
+		2FEFD2461CCCDD010067F370 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FEFD2441CCCDD010067F370 /* AppDelegate.m */; };
+		2FEFD2471CCCDD010067F370 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FEFD2451CCCDD010067F370 /* main.m */; };
+		2FEFD2511CCCDF6D0067F370 /* SoleTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FEFD2501CCCDF6D0067F370 /* SoleTabBar.m */; };
+		2FEFD2541CCCDF820067F370 /* SoleTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FEFD2531CCCDF820067F370 /* SoleTabBarViewController.m */; };
+		2FEFD2571CCCE09F0067F370 /* SoleEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FEFD2561CCCE09F0067F370 /* SoleEssenceViewController.m */; };
+		2FEFD25A1CCCE0AE0067F370 /* SoleFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FEFD2591CCCE0AE0067F370 /* SoleFriendViewController.m */; };
+		2FEFD25D1CCCE0B70067F370 /* SoleMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FEFD25C1CCCE0B70067F370 /* SoleMeViewController.m */; };
+		2FEFD2601CCCE0C00067F370 /* SoleNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FEFD25F1CCCE0C00067F370 /* SoleNewViewController.m */; };
+		2FEFD2641CCCF05C0067F370 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FEFD2631CCCF05C0067F370 /* UIView+Extension.m */; };
+		413AC32FA6794144E0BB6EDA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F933F130273AD3520B69C507 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F02EB731CDB58FA004F4D33 /* SoleTopicVoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoleTopicVoiceView.h; sourceTree = "<group>"; };
+		2F02EB741CDB58FA004F4D33 /* SoleTopicVoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoleTopicVoiceView.m; sourceTree = "<group>"; };
+		2F02EB761CDB591D004F4D33 /* SoleTopicVoiceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SoleTopicVoiceView.xib; sourceTree = "<group>"; };
+		2F02EB781CDB690D004F4D33 /* SoleTopicVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoleTopicVideoView.h; sourceTree = "<group>"; };
+		2F02EB791CDB690D004F4D33 /* SoleTopicVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoleTopicVideoView.m; sourceTree = "<group>"; };
+		2F02EB7D1CDB6935004F4D33 /* SoleTopicVideoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SoleTopicVideoView.xib; sourceTree = "<group>"; };
+		2F02EB811CDB7309004F4D33 /* SolePublishView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolePublishView.h; sourceTree = "<group>"; };
+		2F02EB821CDB7309004F4D33 /* SolePublishView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SolePublishView.m; sourceTree = "<group>"; };
+		2F270FBC1CD3075000FB5622 /* SoleMeStroyBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SoleMeStroyBoard.storyboard; sourceTree = "<group>"; };
+		2F270FCA1CD352BA00FB5622 /* SoleSquareCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoleSquareCell.h; sourceTree = "<group>"; };
+		2F270FCB1CD352BA00FB5622 /* SoleSquareCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoleSquareCell.m; sourceTree = "<group>"; };
+		2F270FCC1CD352BA00FB5622 /* SoleSquareCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SoleSquareCell.xib; sourceTree = "<group>"; };
+		2F270FCF1CD3605900FB5622 /* SoleSquareItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoleSquareItem.h; sourceTree = "<group>"; };
+		2F270FD01CD3605900FB5622 /* SoleSquareItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoleSquareItem.m; sourceTree = "<group>"; };
+		2F2B71491CD2EAF100D635CF /* SoleRSSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoleRSSViewController.h; sourceTree = "<group>"; };
+		2F2B714A1CD2EAF100D635CF /* SoleRSSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoleRSSViewController.m; sourceTree = "<group>"; };
+		2F2B714C1CD2EBEA00D635CF /* SoleRSSCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoleRSSCell.h; sourceTree = "<group>"; };
+		2F2B714D1CD2EBEA00D635CF /* SoleRSSCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoleRSSCell.m; sourceTree = "<group>"; };
+		2F2B714E1CD2EBEA00D635CF /* SoleRSSCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SoleRSSCell.xib; sourceTree = "<group>"; };
+		2F2B71511CD2EE3600D635CF /* SoleRSSItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoleRSSItem.h; sourceTree = "<group>"; };
+		2F2B71521CD2EE3600D635CF /* SoleRSSItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoleRSSItem.m; sourceTree = "<group>"; };
+		2F3B3BE71CCDD09500079FC7 /* UIBarButtonItem+Sole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Sole.h"; sourceTree = "<group>"; };
+		2F3B3BE81CCDD09500079FC7 /* UIBarButtonItem+Sole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Sole.m"; sourceTree = "<group>"; };
+		2F3B3BEB1CCDE92000079FC7 /* SoleNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoleNavigationController.h; sourceTree = "<group>"; };
+		2F3B3BEC1CCDE92000079FC7 /* SoleNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoleNavigationController.m; sourceTree = "<group>"; };
+		2F3B3BEE1CCE3B2900079FC7 /* SoleFriendView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SoleFriendView.xib; sourceTree = "<group>"; };
+		2F3B3BF01CCE41E100079FC7 /* SoleRecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoleRecommendViewController.h; sourceTree = "<group>"; };
+		2F3B3BF11CCE41E100079FC7 /* SoleRecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoleRecommendViewController.m; sourceTree = "<group>"; };
+		2F3B3BF21CCE41E100079FC7 /* SoleRecommendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SoleRecommendViewController.xib; sourceTree = "<group>"; };
+		2F3B3BFA1CCE446400079FC7 /* SoleRecommendTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoleRecommendTableViewCell.h; sourceTree = "<group>"; };
+		2F3B3BFB1CCE446400079FC7 /* SoleRecommendTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoleRecommendTableViewCell.m; sourceTree = "<group>"; };
+		2F3B3BFC1CCE446400079FC7 /* SoleRecommendTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SoleRecommendTableViewCell.xib; sourceTree = "<group>"; };
+		2F4795431CDD80E400711254 /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
+		2F4795441CDD80E400711254 /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
+		2F4795481CDDAD3400711254 /* SoleVerticallyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoleVerticallyButton.h; sourceTree = "<group>"; };
+		2F4795491CDDAD3400711254 /* SoleVerticallyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoleVerticallyButton.m; sourceTree = "<group>"; };
+		2F47954B1CDDAD6400711254 /* SoleVerticallyButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SoleVerticallyButton.xib; sourceTree = "<group>"; };
+		2F47954D1CDDFB2200711254 /* SoleCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoleCommentViewController.h; sourceTree = "<group>"; };
+		2F47954E1CDDFB2200711254 /* SoleCommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoleCommentViewController.m; sourceTree = "<group>"; };
+		2F4795501CDDFD0800711254 /* SoleCommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoleCommentCell.h; sourceTree = "<group>"; };
+		2F4795511CDDFD0800711254 /* SoleCommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoleCommentCell.m; sourceTree = "<group>"; usesTabs = 0; };
+		2F4795521CDDFD0800711254 /* SoleCommentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SoleCommentCell.xib; sourceTree = "<group>"; };
+		2F4795551CDE06D800711254 /* SoleCommentItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoleCommentItem.h; sourceTree = "<group>"; };
+		2F4795561CDE06D800711254 /* SoleCommentItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoleCommentItem.m; sourceTree = "<group>"; };
+		2F47955B1CDE15C000711254 /* SoleCmtUserItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoleCmtUserItem.h; sourceTree = "<group>"; };
+		2F47955C1CDE15C000711254 /* SoleCmtUserItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoleCmtUserItem.m; sourceTree = "<group>"; };
+		2F4BE8121CDA06DE00E7A47D /* SolePictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolePictureViewController.h; sourceTree = "<group>"; };
+		2F4BE8131CDA06DE00E7A47D /* SolePictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SolePictureViewController.m; sourceTree = "<group>"; };
+		2F4BE8141CDA06DE00E7A47D /* SolePictureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SolePictureViewController.xib; sourceTree = "<group>"; };
+		2F4BE81B1CDA128600E7A47D /* SoleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoleProgressView.h; sourceTree = "<group>"; };
+		2F4BE81C1CDA128600E7A47D /* SoleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoleProgressView.m; sourceTree = "<group>"; };
+		2F8090AA1CD8300E0087D08D /* SoleBaseTopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoleBaseTopicViewController.h; sourceTree = "<group>"; };
+		2F8090AB1CD8300E0087D08D /* SoleBaseTopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoleBaseTopicViewController.m; sourceTree = "<group>"; };
+		2F8090AD1CD847760087D08D /* SoleTopicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoleTopicCell.h; sourceTree = "<group>"; };
+		2F8090AE1CD847760087D08D /* SoleTopicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoleTopicCell.m; sourceTree = "<group>"; };
+		2F8090AF1CD847760087D08D /* SoleTopicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SoleTopicCell.xib; sourceTree = "<group>"; };
+		2F8090B21CD8497B0087D08D /* SoleTopicItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoleTopicItem.h; sourceTree = "<group>"; };
+		2F8090B31CD8497B0087D08D /* SoleTopicItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoleTopicItem.m; sourceTree = "<group>"; };
+		2F8090B81CD886A80087D08D /* SoleGobleVar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoleGobleVar.h; sourceTree = "<group>"; };
+		2F8090BB1CD889430087D08D /* SoleGobleVar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoleGobleVar.m; sourceTree = "<group>"; };
+		2F8090BD1CD891600087D08D /* SoleTopicPictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoleTopicPictureView.h; sourceTree = "<group>"; };
+		2F8090BE1CD891600087D08D /* SoleTopicPictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoleTopicPictureView.m; sourceTree = "<group>"; };
+		2F8090C01CD891750087D08D /* SoleTopicPictureView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SoleTopicPictureView.xib; sourceTree = "<group>"; };
+		2FCFE1BCBFDD912D83CD3AA7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		2FD292121CD199C50095DED0 /* SoleUserItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoleUserItem.h; sourceTree = "<group>"; };
+		2FD292131CD199C50095DED0 /* SoleUserItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoleUserItem.m; sourceTree = "<group>"; };
+		2FD292191CD1E9830095DED0 /* SoleLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoleLoginViewController.h; sourceTree = "<group>"; };
+		2FD2921A1CD1E9830095DED0 /* SoleLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoleLoginViewController.m; sourceTree = "<group>"; };
+		2FD2921B1CD1E9830095DED0 /* SoleLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SoleLoginViewController.xib; sourceTree = "<group>"; };
+		2FD2921E1CD1EB760095DED0 /* SoleLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoleLoginButton.h; sourceTree = "<group>"; };
+		2FD2921F1CD1EB760095DED0 /* SoleLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoleLoginButton.m; sourceTree = "<group>"; };
+		2FD292211CD205830095DED0 /* SoleLoginTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoleLoginTextField.h; sourceTree = "<group>"; };
+		2FD292221CD205830095DED0 /* SoleLoginTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoleLoginTextField.m; sourceTree = "<group>"; };
+		2FD9C0441CD0D88D00E67C9C /* SoleCategoryItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoleCategoryItem.h; sourceTree = "<group>"; };
+		2FD9C0451CD0D88D00E67C9C /* SoleCategoryItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoleCategoryItem.m; sourceTree = "<group>"; };
+		2FD9C0471CD0E45100E67C9C /* SoleUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoleUserCell.h; sourceTree = "<group>"; };
+		2FD9C0481CD0E45100E67C9C /* SoleUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoleUserCell.m; sourceTree = "<group>"; };
+		2FD9C0491CD0E45100E67C9C /* SoleUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SoleUserCell.xib; sourceTree = "<group>"; };
+		2FE7D0D01CD470C70095362C /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		2FE7D0D51CD471760095362C /* SoleAdvertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoleAdvertViewController.h; path = Solemnness/Class/Other/Advert/Controller/SoleAdvertViewController.h; sourceTree = SOURCE_ROOT; };
+		2FE7D0D61CD471760095362C /* SoleAdvertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SoleAdvertView.xib; path = Solemnness/Class/Other/Advert/Controller/SoleAdvertView.xib; sourceTree = SOURCE_ROOT; };
+		2FE7D0D71CD471760095362C /* SoleAdvertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SoleAdvertViewController.m; path = Solemnness/Class/Other/Advert/Controller/SoleAdvertViewController.m; sourceTree = SOURCE_ROOT; };
+		2FE7D0DA1CD471820095362C /* SoleAdvertItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoleAdvertItem.h; path = Solemnness/Class/Other/Advert/Model/SoleAdvertItem.h; sourceTree = SOURCE_ROOT; };
+		2FE7D0DB1CD471820095362C /* SoleAdvertItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SoleAdvertItem.m; path = Solemnness/Class/Other/Advert/Model/SoleAdvertItem.m; sourceTree = SOURCE_ROOT; };
+		2FE7D0DD1CD471BE0095362C /* SoleWebKitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoleWebKitViewController.h; sourceTree = "<group>"; };
+		2FE7D0DE1CD471BE0095362C /* SoleWebKitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoleWebKitViewController.m; sourceTree = "<group>"; };
+		2FE7D0DF1CD471BE0095362C /* SoleWebKitViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SoleWebKitViewController.xib; sourceTree = "<group>"; };
+		2FEFD2171CCCD6970067F370 /* Solemnness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Solemnness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FEFD2261CCCD6970067F370 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FEFD2291CCCD6970067F370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FEFD22B1CCCD6970067F370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FEFD2431CCCDD010067F370 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2FEFD2441CCCDD010067F370 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2FEFD2451CCCDD010067F370 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2FEFD24F1CCCDF6D0067F370 /* SoleTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoleTabBar.h; sourceTree = "<group>"; };
+		2FEFD2501CCCDF6D0067F370 /* SoleTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoleTabBar.m; sourceTree = "<group>"; };
+		2FEFD2521CCCDF820067F370 /* SoleTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoleTabBarViewController.h; sourceTree = "<group>"; };
+		2FEFD2531CCCDF820067F370 /* SoleTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoleTabBarViewController.m; sourceTree = "<group>"; };
+		2FEFD2551CCCE09F0067F370 /* SoleEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoleEssenceViewController.h; sourceTree = "<group>"; };
+		2FEFD2561CCCE09F0067F370 /* SoleEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoleEssenceViewController.m; sourceTree = "<group>"; };
+		2FEFD2581CCCE0AE0067F370 /* SoleFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoleFriendViewController.h; sourceTree = "<group>"; };
+		2FEFD2591CCCE0AE0067F370 /* SoleFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoleFriendViewController.m; sourceTree = "<group>"; };
+		2FEFD25B1CCCE0B70067F370 /* SoleMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoleMeViewController.h; sourceTree = "<group>"; };
+		2FEFD25C1CCCE0B70067F370 /* SoleMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoleMeViewController.m; sourceTree = "<group>"; };
+		2FEFD25E1CCCE0C00067F370 /* SoleNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoleNewViewController.h; sourceTree = "<group>"; };
+		2FEFD25F1CCCE0C00067F370 /* SoleNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoleNewViewController.m; sourceTree = "<group>"; };
+		2FEFD2621CCCF05C0067F370 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		2FEFD2631CCCF05C0067F370 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		2FEFD2661CCCF2230067F370 /* SolePrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SolePrefixHeader.pch; sourceTree = "<group>"; };
+		D860AA01487FC475671DE86C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F933F130273AD3520B69C507 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FEFD2141CCCD6970067F370 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE7D0D11CD470C70095362C /* WebKit.framework in Frameworks */,
+				413AC32FA6794144E0BB6EDA /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05B2BF8CBBA3D198564EAF68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FE7D0D01CD470C70095362C /* WebKit.framework */,
+				F933F130273AD3520B69C507 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0D9E1998433025B1E41A1BEA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FCFE1BCBFDD912D83CD3AA7 /* Pods.debug.xcconfig */,
+				D860AA01487FC475671DE86C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2F270FBE1CD3162E00FB5622 /* Advert */ = {
+			isa = PBXGroup;
+			children = (
+				2F270FBF1CD3162E00FB5622 /* Controller */,
+				2F270FC01CD3162E00FB5622 /* Model */,
+				2F270FC11CD3162E00FB5622 /* View */,
+			);
+			name = Advert;
+			path = Ddvert;
+			sourceTree = "<group>";
+		};
+		2F270FBF1CD3162E00FB5622 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2FE7D0D51CD471760095362C /* SoleAdvertViewController.h */,
+				2FE7D0D61CD471760095362C /* SoleAdvertView.xib */,
+				2FE7D0D71CD471760095362C /* SoleAdvertViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2F270FC01CD3162E00FB5622 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2FE7D0DA1CD471820095362C /* SoleAdvertItem.h */,
+				2FE7D0DB1CD471820095362C /* SoleAdvertItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2F270FC11CD3162E00FB5622 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2F4BE8171CDA109300E7A47D /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				2F4BE8181CDA109300E7A47D /* Controller */,
+				2F4BE8191CDA109300E7A47D /* Model */,
+				2F4BE81A1CDA109300E7A47D /* View */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		2F4BE8181CDA109300E7A47D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2F4BE8191CDA109300E7A47D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2F4BE81A1CDA109300E7A47D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2F4BE81B1CDA128600E7A47D /* SoleProgressView.h */,
+				2F4BE81C1CDA128600E7A47D /* SoleProgressView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2FD292151CD1E9580095DED0 /* LoginController */ = {
+			isa = PBXGroup;
+			children = (
+				2FD292161CD1E9580095DED0 /* Controller */,
+				2FD292171CD1E9580095DED0 /* Model */,
+				2FD292181CD1E9580095DED0 /* View */,
+			);
+			path = LoginController;
+			sourceTree = "<group>";
+		};
+		2FD292161CD1E9580095DED0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2FD292191CD1E9830095DED0 /* SoleLoginViewController.h */,
+				2FD2921A1CD1E9830095DED0 /* SoleLoginViewController.m */,
+				2FD2921B1CD1E9830095DED0 /* SoleLoginViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2FD292171CD1E9580095DED0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2FD292181CD1E9580095DED0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2FD2921E1CD1EB760095DED0 /* SoleLoginButton.h */,
+				2FD2921F1CD1EB760095DED0 /* SoleLoginButton.m */,
+				2FD292211CD205830095DED0 /* SoleLoginTextField.h */,
+				2FD292221CD205830095DED0 /* SoleLoginTextField.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2FEFD20E1CCCD6970067F370 = {
+			isa = PBXGroup;
+			children = (
+				2FEFD2191CCCD6970067F370 /* Solemnness */,
+				2FEFD2181CCCD6970067F370 /* Products */,
+				0D9E1998433025B1E41A1BEA /* Pods */,
+				05B2BF8CBBA3D198564EAF68 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2FEFD2181CCCD6970067F370 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FEFD2171CCCD6970067F370 /* Solemnness.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FEFD2191CCCD6970067F370 /* Solemnness */ = {
+			isa = PBXGroup;
+			children = (
+				2FEFD2311CCCDD010067F370 /* Class */,
+				2FEFD2261CCCD6970067F370 /* Assets.xcassets */,
+				2FEFD2281CCCD6970067F370 /* LaunchScreen.storyboard */,
+				2FEFD22B1CCCD6970067F370 /* Info.plist */,
+				2FEFD21A1CCCD6970067F370 /* Supporting Files */,
+			);
+			path = Solemnness;
+			sourceTree = "<group>";
+		};
+		2FEFD21A1CCCD6970067F370 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FEFD2311CCCDD010067F370 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				2FEFD2481CCCDD220067F370 /* Main */,
+				2FEFD2321CCCDD010067F370 /* Essence */,
+				2FEFD23E1CCCDD010067F370 /* New */,
+				2FEFD2361CCCDD010067F370 /* FriendTrends */,
+				2FEFD23A1CCCDD010067F370 /* Me */,
+				2FEFD2421CCCDD010067F370 /* Other */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		2FEFD2321CCCDD010067F370 /* Essence */ = {
+			isa = PBXGroup;
+			children = (
+				2FEFD2331CCCDD010067F370 /* Controller */,
+				2FEFD2341CCCDD010067F370 /* Model */,
+				2FEFD2351CCCDD010067F370 /* View */,
+			);
+			path = Essence;
+			sourceTree = "<group>";
+		};
+		2FEFD2331CCCDD010067F370 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2FEFD2551CCCE09F0067F370 /* SoleEssenceViewController.h */,
+				2FEFD2561CCCE09F0067F370 /* SoleEssenceViewController.m */,
+				2F8090AA1CD8300E0087D08D /* SoleBaseTopicViewController.h */,
+				2F8090AB1CD8300E0087D08D /* SoleBaseTopicViewController.m */,
+				2F2B71491CD2EAF100D635CF /* SoleRSSViewController.h */,
+				2F2B714A1CD2EAF100D635CF /* SoleRSSViewController.m */,
+				2F4BE8121CDA06DE00E7A47D /* SolePictureViewController.h */,
+				2F4BE8131CDA06DE00E7A47D /* SolePictureViewController.m */,
+				2F4BE8141CDA06DE00E7A47D /* SolePictureViewController.xib */,
+				2F47954D1CDDFB2200711254 /* SoleCommentViewController.h */,
+				2F47954E1CDDFB2200711254 /* SoleCommentViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2FEFD2341CCCDD010067F370 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2F2B71511CD2EE3600D635CF /* SoleRSSItem.h */,
+				2F2B71521CD2EE3600D635CF /* SoleRSSItem.m */,
+				2F8090B21CD8497B0087D08D /* SoleTopicItem.h */,
+				2F8090B31CD8497B0087D08D /* SoleTopicItem.m */,
+				2F4795551CDE06D800711254 /* SoleCommentItem.h */,
+				2F4795561CDE06D800711254 /* SoleCommentItem.m */,
+				2F47955B1CDE15C000711254 /* SoleCmtUserItem.h */,
+				2F47955C1CDE15C000711254 /* SoleCmtUserItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2FEFD2351CCCDD010067F370 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2F2B714C1CD2EBEA00D635CF /* SoleRSSCell.h */,
+				2F2B714D1CD2EBEA00D635CF /* SoleRSSCell.m */,
+				2F2B714E1CD2EBEA00D635CF /* SoleRSSCell.xib */,
+				2F8090AD1CD847760087D08D /* SoleTopicCell.h */,
+				2F8090AE1CD847760087D08D /* SoleTopicCell.m */,
+				2F8090AF1CD847760087D08D /* SoleTopicCell.xib */,
+				2F8090BD1CD891600087D08D /* SoleTopicPictureView.h */,
+				2F8090BE1CD891600087D08D /* SoleTopicPictureView.m */,
+				2F8090C01CD891750087D08D /* SoleTopicPictureView.xib */,
+				2F02EB731CDB58FA004F4D33 /* SoleTopicVoiceView.h */,
+				2F02EB741CDB58FA004F4D33 /* SoleTopicVoiceView.m */,
+				2F02EB761CDB591D004F4D33 /* SoleTopicVoiceView.xib */,
+				2F02EB781CDB690D004F4D33 /* SoleTopicVideoView.h */,
+				2F02EB791CDB690D004F4D33 /* SoleTopicVideoView.m */,
+				2F02EB7D1CDB6935004F4D33 /* SoleTopicVideoView.xib */,
+				2F4795501CDDFD0800711254 /* SoleCommentCell.h */,
+				2F4795511CDDFD0800711254 /* SoleCommentCell.m */,
+				2F4795521CDDFD0800711254 /* SoleCommentCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2FEFD2361CCCDD010067F370 /* FriendTrends */ = {
+			isa = PBXGroup;
+			children = (
+				2FEFD2371CCCDD010067F370 /* Controller */,
+				2FEFD2381CCCDD010067F370 /* Model */,
+				2FEFD2391CCCDD010067F370 /* View */,
+			);
+			path = FriendTrends;
+			sourceTree = "<group>";
+		};
+		2FEFD2371CCCDD010067F370 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2FEFD2581CCCE0AE0067F370 /* SoleFriendViewController.h */,
+				2FEFD2591CCCE0AE0067F370 /* SoleFriendViewController.m */,
+				2F3B3BEE1CCE3B2900079FC7 /* SoleFriendView.xib */,
+				2F3B3BF01CCE41E100079FC7 /* SoleRecommendViewController.h */,
+				2F3B3BF11CCE41E100079FC7 /* SoleRecommendViewController.m */,
+				2F3B3BF21CCE41E100079FC7 /* SoleRecommendViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2FEFD2381CCCDD010067F370 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2FD9C0441CD0D88D00E67C9C /* SoleCategoryItem.h */,
+				2FD9C0451CD0D88D00E67C9C /* SoleCategoryItem.m */,
+				2FD292121CD199C50095DED0 /* SoleUserItem.h */,
+				2FD292131CD199C50095DED0 /* SoleUserItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2FEFD2391CCCDD010067F370 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2F3B3BFA1CCE446400079FC7 /* SoleRecommendTableViewCell.h */,
+				2F3B3BFB1CCE446400079FC7 /* SoleRecommendTableViewCell.m */,
+				2F3B3BFC1CCE446400079FC7 /* SoleRecommendTableViewCell.xib */,
+				2FD9C0471CD0E45100E67C9C /* SoleUserCell.h */,
+				2FD9C0481CD0E45100E67C9C /* SoleUserCell.m */,
+				2FD9C0491CD0E45100E67C9C /* SoleUserCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2FEFD23A1CCCDD010067F370 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				2FEFD23B1CCCDD010067F370 /* Controller */,
+				2FEFD23C1CCCDD010067F370 /* Model */,
+				2FEFD23D1CCCDD010067F370 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		2FEFD23B1CCCDD010067F370 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2FEFD25B1CCCE0B70067F370 /* SoleMeViewController.h */,
+				2FEFD25C1CCCE0B70067F370 /* SoleMeViewController.m */,
+				2F270FBC1CD3075000FB5622 /* SoleMeStroyBoard.storyboard */,
+				2FE7D0DD1CD471BE0095362C /* SoleWebKitViewController.h */,
+				2FE7D0DE1CD471BE0095362C /* SoleWebKitViewController.m */,
+				2FE7D0DF1CD471BE0095362C /* SoleWebKitViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2FEFD23C1CCCDD010067F370 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2F270FCF1CD3605900FB5622 /* SoleSquareItem.h */,
+				2F270FD01CD3605900FB5622 /* SoleSquareItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2FEFD23D1CCCDD010067F370 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2F270FCA1CD352BA00FB5622 /* SoleSquareCell.h */,
+				2F270FCB1CD352BA00FB5622 /* SoleSquareCell.m */,
+				2F270FCC1CD352BA00FB5622 /* SoleSquareCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2FEFD23E1CCCDD010067F370 /* New */ = {
+			isa = PBXGroup;
+			children = (
+				2FEFD23F1CCCDD010067F370 /* Controller */,
+				2FEFD2401CCCDD010067F370 /* Model */,
+				2FEFD2411CCCDD010067F370 /* View */,
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
+		2FEFD23F1CCCDD010067F370 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2FEFD25E1CCCE0C00067F370 /* SoleNewViewController.h */,
+				2FEFD25F1CCCE0C00067F370 /* SoleNewViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2FEFD2401CCCDD010067F370 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2FEFD2411CCCDD010067F370 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2FEFD2421CCCDD010067F370 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				2F4BE8171CDA109300E7A47D /* Tools */,
+				2F270FBE1CD3162E00FB5622 /* Advert */,
+				2FD292151CD1E9580095DED0 /* LoginController */,
+				2FEFD2611CCCF0320067F370 /* Category */,
+				2FEFD2431CCCDD010067F370 /* AppDelegate.h */,
+				2FEFD2441CCCDD010067F370 /* AppDelegate.m */,
+				2FEFD2451CCCDD010067F370 /* main.m */,
+				2FEFD2661CCCF2230067F370 /* SolePrefixHeader.pch */,
+				2F8090B81CD886A80087D08D /* SoleGobleVar.h */,
+				2F8090BB1CD889430087D08D /* SoleGobleVar.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		2FEFD2481CCCDD220067F370 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2FEFD2491CCCDD220067F370 /* Controller */,
+				2FEFD24A1CCCDD220067F370 /* Model */,
+				2FEFD24B1CCCDD220067F370 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2FEFD2491CCCDD220067F370 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2FEFD2521CCCDF820067F370 /* SoleTabBarViewController.h */,
+				2FEFD2531CCCDF820067F370 /* SoleTabBarViewController.m */,
+				2F3B3BEB1CCDE92000079FC7 /* SoleNavigationController.h */,
+				2F3B3BEC1CCDE92000079FC7 /* SoleNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2FEFD24A1CCCDD220067F370 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2FEFD24B1CCCDD220067F370 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2FEFD24F1CCCDF6D0067F370 /* SoleTabBar.h */,
+				2FEFD2501CCCDF6D0067F370 /* SoleTabBar.m */,
+				2F02EB811CDB7309004F4D33 /* SolePublishView.h */,
+				2F02EB821CDB7309004F4D33 /* SolePublishView.m */,
+				2F4795481CDDAD3400711254 /* SoleVerticallyButton.h */,
+				2F4795491CDDAD3400711254 /* SoleVerticallyButton.m */,
+				2F47954B1CDDAD6400711254 /* SoleVerticallyButton.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2FEFD2611CCCF0320067F370 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2FEFD2621CCCF05C0067F370 /* UIView+Extension.h */,
+				2FEFD2631CCCF05C0067F370 /* UIView+Extension.m */,
+				2F3B3BE71CCDD09500079FC7 /* UIBarButtonItem+Sole.h */,
+				2F3B3BE81CCDD09500079FC7 /* UIBarButtonItem+Sole.m */,
+				2F4795431CDD80E400711254 /* NSDate+Extension.h */,
+				2F4795441CDD80E400711254 /* NSDate+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FEFD2161CCCD6970067F370 /* Solemnness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FEFD22E1CCCD6970067F370 /* Build configuration list for PBXNativeTarget "Solemnness" */;
+			buildPhases = (
+				D3023748E012B6BC4E3EA177 /* Check Pods Manifest.lock */,
+				2FEFD2131CCCD6970067F370 /* Sources */,
+				2FEFD2141CCCD6970067F370 /* Frameworks */,
+				2FEFD2151CCCD6970067F370 /* Resources */,
+				DF5F11A3A898201C67B1E5E8 /* Embed Pods Frameworks */,
+				9CC751D5535A8C0118A2A294 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Solemnness;
+			productName = Solemnness;
+			productReference = 2FEFD2171CCCD6970067F370 /* Solemnness.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FEFD20F1CCCD6970067F370 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Sole;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = bin;
+				TargetAttributes = {
+					2FEFD2161CCCD6970067F370 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 2FEFD2121CCCD6970067F370 /* Build configuration list for PBXProject "Solemnness" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FEFD20E1CCCD6970067F370;
+			productRefGroup = 2FEFD2181CCCD6970067F370 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FEFD2161CCCD6970067F370 /* Solemnness */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FEFD2151CCCD6970067F370 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD2921D1CD1E9830095DED0 /* SoleLoginViewController.xib in Resources */,
+				2F4795541CDDFD0800711254 /* SoleCommentCell.xib in Resources */,
+				2F3B3BF41CCE41E100079FC7 /* SoleRecommendViewController.xib in Resources */,
+				2FD9C04B1CD0E45100E67C9C /* SoleUserCell.xib in Resources */,
+				2F2B71501CD2EBEA00D635CF /* SoleRSSCell.xib in Resources */,
+				2F8090C11CD891750087D08D /* SoleTopicPictureView.xib in Resources */,
+				2F3B3BFE1CCE446400079FC7 /* SoleRecommendTableViewCell.xib in Resources */,
+				2FE7D0E11CD471BE0095362C /* SoleWebKitViewController.xib in Resources */,
+				2F270FBD1CD3075000FB5622 /* SoleMeStroyBoard.storyboard in Resources */,
+				2F270FCE1CD352BA00FB5622 /* SoleSquareCell.xib in Resources */,
+				2F8090B11CD847760087D08D /* SoleTopicCell.xib in Resources */,
+				2F02EB771CDB591D004F4D33 /* SoleTopicVoiceView.xib in Resources */,
+				2F02EB7E1CDB6935004F4D33 /* SoleTopicVideoView.xib in Resources */,
+				2FE7D0D81CD471760095362C /* SoleAdvertView.xib in Resources */,
+				2F4BE8161CDA06DE00E7A47D /* SolePictureViewController.xib in Resources */,
+				2F3B3BEF1CCE3B2900079FC7 /* SoleFriendView.xib in Resources */,
+				2F47954C1CDDAD6400711254 /* SoleVerticallyButton.xib in Resources */,
+				2FEFD22A1CCCD6970067F370 /* LaunchScreen.storyboard in Resources */,
+				2FEFD2271CCCD6970067F370 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9CC751D5535A8C0118A2A294 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3023748E012B6BC4E3EA177 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DF5F11A3A898201C67B1E5E8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FEFD2131CCCD6970067F370 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F8090AC1CD8300E0087D08D /* SoleBaseTopicViewController.m in Sources */,
+				2F2B714B1CD2EAF100D635CF /* SoleRSSViewController.m in Sources */,
+				2FEFD2641CCCF05C0067F370 /* UIView+Extension.m in Sources */,
+				2F47954F1CDDFB2300711254 /* SoleCommentViewController.m in Sources */,
+				2F270FCD1CD352BA00FB5622 /* SoleSquareCell.m in Sources */,
+				2FD292231CD205830095DED0 /* SoleLoginTextField.m in Sources */,
+				2F8090B41CD8497B0087D08D /* SoleTopicItem.m in Sources */,
+				2F2B714F1CD2EBEA00D635CF /* SoleRSSCell.m in Sources */,
+				2FE7D0D91CD471760095362C /* SoleAdvertViewController.m in Sources */,
+				2FEFD2471CCCDD010067F370 /* main.m in Sources */,
+				2FD292201CD1EB760095DED0 /* SoleLoginButton.m in Sources */,
+				2F4795451CDD80E400711254 /* NSDate+Extension.m in Sources */,
+				2F8090BC1CD889430087D08D /* SoleGobleVar.m in Sources */,
+				2F02EB7A1CDB690D004F4D33 /* SoleTopicVideoView.m in Sources */,
+				2FEFD2461CCCDD010067F370 /* AppDelegate.m in Sources */,
+				2FD9C04A1CD0E45100E67C9C /* SoleUserCell.m in Sources */,
+				2F47955D1CDE15C000711254 /* SoleCmtUserItem.m in Sources */,
+				2FD2921C1CD1E9830095DED0 /* SoleLoginViewController.m in Sources */,
+				2F02EB751CDB58FA004F4D33 /* SoleTopicVoiceView.m in Sources */,
+				2F3B3BFD1CCE446400079FC7 /* SoleRecommendTableViewCell.m in Sources */,
+				2FEFD25D1CCCE0B70067F370 /* SoleMeViewController.m in Sources */,
+				2FE7D0DC1CD471820095362C /* SoleAdvertItem.m in Sources */,
+				2FEFD2511CCCDF6D0067F370 /* SoleTabBar.m in Sources */,
+				2F2B71531CD2EE3600D635CF /* SoleRSSItem.m in Sources */,
+				2FEFD2541CCCDF820067F370 /* SoleTabBarViewController.m in Sources */,
+				2FEFD2571CCCE09F0067F370 /* SoleEssenceViewController.m in Sources */,
+				2FEFD2601CCCE0C00067F370 /* SoleNewViewController.m in Sources */,
+				2FD292141CD199C50095DED0 /* SoleUserItem.m in Sources */,
+				2F4BE8151CDA06DE00E7A47D /* SolePictureViewController.m in Sources */,
+				2F4BE81D1CDA128600E7A47D /* SoleProgressView.m in Sources */,
+				2F3B3BF31CCE41E100079FC7 /* SoleRecommendViewController.m in Sources */,
+				2F3B3BED1CCDE92000079FC7 /* SoleNavigationController.m in Sources */,
+				2FD9C0461CD0D88D00E67C9C /* SoleCategoryItem.m in Sources */,
+				2F8090BF1CD891600087D08D /* SoleTopicPictureView.m in Sources */,
+				2F47954A1CDDAD3400711254 /* SoleVerticallyButton.m in Sources */,
+				2FEFD25A1CCCE0AE0067F370 /* SoleFriendViewController.m in Sources */,
+				2F4795571CDE06D800711254 /* SoleCommentItem.m in Sources */,
+				2F4795531CDDFD0800711254 /* SoleCommentCell.m in Sources */,
+				2FE7D0E01CD471BE0095362C /* SoleWebKitViewController.m in Sources */,
+				2F8090B01CD847760087D08D /* SoleTopicCell.m in Sources */,
+				2F270FD11CD3605900FB5622 /* SoleSquareItem.m in Sources */,
+				2F3B3BE91CCDD09500079FC7 /* UIBarButtonItem+Sole.m in Sources */,
+				2F02EB831CDB7309004F4D33 /* SolePublishView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2FEFD2281CCCD6970067F370 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FEFD2291CCCD6970067F370 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FEFD22C1CCCD6970067F370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2FEFD22D1CCCD6970067F370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FEFD22F1CCCD6970067F370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FCFE1BCBFDD912D83CD3AA7 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Solemnness/Class/Other/SolePrefixHeader.pch;
+				INFOPLIST_FILE = Solemnness/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bin.Solemnness;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2FEFD2301CCCD6970067F370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D860AA01487FC475671DE86C /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Solemnness/Class/Other/SolePrefixHeader.pch;
+				INFOPLIST_FILE = Solemnness/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bin.Solemnness;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FEFD2121CCCD6970067F370 /* Build configuration list for PBXProject "Solemnness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FEFD22C1CCCD6970067F370 /* Debug */,
+				2FEFD22D1CCCD6970067F370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FEFD22E1CCCD6970067F370 /* Build configuration list for PBXNativeTarget "Solemnness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FEFD22F1CCCD6970067F370 /* Debug */,
+				2FEFD2301CCCD6970067F370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FEFD20F1CCCD6970067F370 /* Project object */;
+}

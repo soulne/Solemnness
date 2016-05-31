@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="60" id="KGk-i7-Jjw" customClass="SoleUserCell">
+            <rect key="frame" x="0.0" y="0.0" width="313" height="59"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="313" height="58"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="80A-Yo-ZAw">
+                        <rect key="frame" x="5" y="5" width="50" height="48"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="5hY-Rq-yrZ"/>
+                            <constraint firstAttribute="width" constant="50" id="ZFo-Jo-yKE"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="5hY-Rq-yrZ"/>
+                            </mask>
+                        </variation>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gfp-ic-ejh">
+                        <rect key="frame" x="65" y="5" width="185" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qlx-kI-cZL">
+                        <rect key="frame" x="65" y="35" width="185" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vt0-q1-Yve">
+                        <rect key="frame" x="255" y="13" width="40" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="3tJ-Ku-gCI"/>
+                        </constraints>
+                        <state key="normal" title="+关注"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="80A-Yo-ZAw" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="0mw-KX-d0H"/>
+                    <constraint firstItem="vt0-q1-Yve" firstAttribute="leading" secondItem="qlx-kI-cZL" secondAttribute="trailing" constant="5" id="1AK-dz-nBr"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="vt0-q1-Yve" secondAttribute="bottom" constant="5" id="1mh-mU-4eG"/>
+                    <constraint firstItem="vt0-q1-Yve" firstAttribute="leading" secondItem="Gfp-ic-ejh" secondAttribute="trailing" constant="5" id="6YB-lr-bxc"/>
+                    <constraint firstAttribute="bottom" secondItem="80A-Yo-ZAw" secondAttribute="bottom" constant="5" id="H54-LO-4M1"/>
+                    <constraint firstItem="qlx-kI-cZL" firstAttribute="bottom" secondItem="80A-Yo-ZAw" secondAttribute="bottom" id="MWb-pq-FPQ"/>
+                    <constraint firstItem="80A-Yo-ZAw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="Oz5-y8-VPD"/>
+                    <constraint firstItem="qlx-kI-cZL" firstAttribute="leading" secondItem="80A-Yo-ZAw" secondAttribute="trailing" constant="10" id="cT7-Oo-eRK"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="vt0-q1-Yve" secondAttribute="trailing" constant="10" id="fEL-Np-cEk"/>
+                    <constraint firstItem="vt0-q1-Yve" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="5" id="r0g-kL-sJU"/>
+                    <constraint firstItem="Gfp-ic-ejh" firstAttribute="leading" secondItem="80A-Yo-ZAw" secondAttribute="trailing" constant="10" id="rUF-z7-v9l"/>
+                    <constraint firstItem="Gfp-ic-ejh" firstAttribute="top" secondItem="80A-Yo-ZAw" secondAttribute="top" id="vZv-2P-abV"/>
+                </constraints>
+            </tableViewCellContentView>
+            <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+            <connections>
+                <outlet property="detailLabel" destination="qlx-kI-cZL" id="mFU-be-y9V"/>
+                <outlet property="iconView" destination="80A-Yo-ZAw" id="ddf-Eu-bHN"/>
+                <outlet property="titleLabel" destination="Gfp-ic-ejh" id="X6a-7a-t8q"/>
+            </connections>
+            <point key="canvasLocation" x="321.5" y="397.5"/>
+        </tableViewCell>
+    </objects>
+</document>
